@@ -1,5 +1,15 @@
 # -*- coding: utf-8 -*-
 
+################################################################################
+## Form generated from reading UI file 'App_InterfacerMuIAQ.ui'
+##
+## Created by: Qt User Interface Compiler version 5.14.1
+##
+## WARNING! All changes made in this file will be lost when recompiling UI file!
+################################################################################
+
+# -*- coding: utf-8 -*-
+
 # Form implementation generated from reading ui file 'LoginInterface.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.4
@@ -13,10 +23,12 @@
 #from tkinter import Button
 
 
-from PyQt5 import QtCore, QtGui, QtWidgets, uic
+
+from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtWidgets import *
 from PyQt5.QtCore import *
 from PyQt5.QtGui import *
+from PyQt5 import *
 import sys
 import os
 import subprocess
@@ -24,7 +36,8 @@ from os import *
 
 
 
-class Ui_SecondWindow(object):
+
+class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName(u"MainWindow")
         MainWindow.resize(700, 900)
@@ -80,122 +93,103 @@ class Ui_SecondWindow(object):
 "border-radius : 15px")
         self.label_4 = QLabel(self.widget)
         self.label_4.setObjectName(u"label_4")
-        self.label_4.setGeometry(QRect(190, 130, 211, 71))
+        self.label_4.setGeometry(QRect(175, 85, 241, 51))
         font = QFont()
         font.setFamily(u"Corbel")
         font.setPointSize(27)
         font.setBold(True)
         font.setWeight(75)
         self.label_4.setFont(font)
-        self.label_4.setStyleSheet(u"color:rgba(255, 255, 255, 210);\n"
+        self.label_4.setStyleSheet(u"border-image: url(Screenshot_2023-09-28_at_7.44.17_PM-removebg.png);\n"
+"border-radius:20px;\n"
 "")
         self.label_4.setTextFormat(Qt.PlainText)
         self.label_4.setScaledContents(False)
         self.label_4.setAlignment(Qt.AlignCenter)
-        self.pushButton_3 = QPushButton(self.widget)
-        self.pushButton_3.setObjectName(u"pushButton_3")
-        self.pushButton_3.setGeometry(QRect(470, 90, 31, 31))
+        self.pushButton = QPushButton(self.widget)
+        self.pushButton.setObjectName(u"pushButton")
+        self.pushButton.setGeometry(QRect(150, 310, 288, 32))
         font1 = QFont()
         font1.setFamily(u"Corbel")
-        font1.setPointSize(21)
+        font1.setPointSize(15)
         font1.setBold(True)
         font1.setWeight(75)
-        self.pushButton_3.setFont(font1)
-        self.pushButton_3.setStyleSheet(u"color:rgba(255,255,255,210);")
+        self.pushButton.setFont(font1)
+        self.pushButton.setStyleSheet(u"QPushButton#pushButton{\n"
+"	background-color: qlineargradient(spread:pad, x1:0.364, y1:1, x2:1, y2:1, stop:0 rgba(0, 71, 120, 255), stop:1 rgba(0, 41, 69, 255));\n"
+"	color:rgba(255, 255, 255, 210);\n"
+"	border-radius:5px;\n"
+"}\n"
+"QPushButton#pushButton:hover{\n"
+"	background-color: qlineargradient(spread:pad, x1:0.364, y1:1, x2:1, y2:1, stop:0 rgba(0, 91, 140, 255), stop:1 rgba(0, 61, 89, 255));\n"
+"}\n"
+"QPushButton#pushButton:pressed{\n"
+"	padding-left:5px;\n"
+"	padding-top:5px;\n"
+"	background-color:rgba(65, 75, 116, 200);\n"
+"}\n"   
+"")
+        self.pushButton_5 = QPushButton(self.widget)
+        self.pushButton_5.setObjectName(u"pushButton_5")
+        self.pushButton_5.setGeometry(QRect(150, 570, 288, 32))
+        self.pushButton_5.setFont(font1)
+        self.pushButton_5.setStyleSheet(u"QPushButton#pushButton_5{\n"
+"	background-color: qlineargradient(spread:pad, x1:0.364, y1:1, x2:1, y2:1, stop:0 rgba(0, 71, 120, 255), stop:1 rgba(0, 41, 69, 255));\n"
+"	color:rgba(255, 255, 255, 210);\n"
+"	border-radius:5px;\n"
+"}\n"
+"QPushButton#pushButton_5:hover{\n"
+"	background-color: qlineargradient(spread:pad, x1:0.364, y1:1, x2:1, y2:1, stop:0 rgba(0, 91, 140, 255), stop:1 rgba(0, 61, 89, 255));\n"
+"}\n"
+"QPushButton#pushButton_5:pressed{\n"
+"	padding-left:5px;\n"
+"	padding-top:5px;\n"
+"	background-color:rgba(0, 56, 94, 200);\n"
+"}\n"
+"")
         self.label_5 = QLabel(self.widget)
         self.label_5.setObjectName(u"label_5")
-        self.label_5.setGeometry(QRect(190, 280, 41, 41))
+        self.label_5.setGeometry(QRect(170, 390, 251, 40))
         font2 = QFont()
         font2.setFamily(u"Corbel")
-        font2.setPointSize(16)
-        font2.setBold(True)
-        font2.setWeight(75)
+        font2.setPointSize(14)
         self.label_5.setFont(font2)
-        self.label_5.setStyleSheet(u"color:rgba(255, 255, 255, 210);")
+        self.label_5.setStyleSheet(u"color:rgba(255, 255, 255, 210);\n"
+"")
         self.label_5.setAlignment(Qt.AlignCenter)
         self.label_6 = QLabel(self.widget)
         self.label_6.setObjectName(u"label_6")
-        self.label_6.setGeometry(QRect(190, 320, 41, 41))
+        self.label_6.setGeometry(QRect(80, 440, 421, 40))
         self.label_6.setFont(font2)
-        self.label_6.setStyleSheet(u"color:rgba(255, 255, 255, 210);")
+        self.label_6.setStyleSheet(u"color:rgba(255, 255, 255, 210);\n"
+"")
         self.label_6.setAlignment(Qt.AlignCenter)
         self.label_7 = QLabel(self.widget)
         self.label_7.setObjectName(u"label_7")
-        self.label_7.setGeometry(QRect(190, 360, 41, 41))
+        self.label_7.setGeometry(QRect(70, 480, 441, 40))
         self.label_7.setFont(font2)
-        self.label_7.setStyleSheet(u"color:rgba(255, 255, 255, 210);")
+        self.label_7.setStyleSheet(u"color:rgba(255, 255, 255, 210);\n"
+"")
         self.label_7.setAlignment(Qt.AlignCenter)
-        self.label_8 = QLabel(self.widget)
-        self.label_8.setObjectName(u"label_8")
-        self.label_8.setGeometry(QRect(190, 400, 41, 41))
-        self.label_8.setFont(font2)
-        self.label_8.setStyleSheet(u"color:rgba(255, 255, 255, 210);")
-        self.label_8.setAlignment(Qt.AlignCenter)
-        self.label_9 = QLabel(self.widget)
-        self.label_9.setObjectName(u"label_9")
-        self.label_9.setGeometry(QRect(190, 440, 41, 41))
-        self.label_9.setFont(font2)
-        self.label_9.setStyleSheet(u"color:rgba(255, 255, 255, 210);")
-        self.label_9.setAlignment(Qt.AlignCenter)
-        self.label_10 = QLabel(self.widget)
-        self.label_10.setObjectName(u"label_10")
-        self.label_10.setGeometry(QRect(190, 480, 41, 41))
-        self.label_10.setFont(font2)
-        self.label_10.setStyleSheet(u"color:rgba(255, 255, 255, 210);")
-        self.label_10.setAlignment(Qt.AlignCenter)
-        self.label_11 = QLabel(self.widget)
-        self.label_11.setObjectName(u"label_11")
-        self.label_11.setGeometry(QRect(190, 520, 41, 41))
-        self.label_11.setFont(font2)
-        self.label_11.setStyleSheet(u"color:rgba(255, 255, 255, 210);")
-        self.label_11.setAlignment(Qt.AlignCenter)
-        self.label_12 = QLabel(self.widget)
-        self.label_12.setObjectName(u"label_12")
-        self.label_12.setGeometry(QRect(370, 280, 41, 41))
-        self.label_12.setFont(font2)
-        self.label_12.setStyleSheet(u"color:rgba(255, 255, 255, 210);")
-        self.label_12.setAlignment(Qt.AlignCenter)
-        self.label_13 = QLabel(self.widget)
-        self.label_13.setObjectName(u"label_13")
-        self.label_13.setGeometry(QRect(370, 320, 41, 41))
-        self.label_13.setFont(font2)
-        self.label_13.setStyleSheet(u"color:rgba(255, 255, 255, 190);")
-        self.label_13.setAlignment(Qt.AlignCenter)
-        self.label_14 = QLabel(self.widget)
-        self.label_14.setObjectName(u"label_14")
-        self.label_14.setGeometry(QRect(370, 360, 41, 41))
-        self.label_14.setFont(font2)
-        self.label_14.setStyleSheet(u"color:rgba(255, 255, 255, 210);")
-        self.label_14.setAlignment(Qt.AlignCenter)
-        self.label_15 = QLabel(self.widget)
-        self.label_15.setObjectName(u"label_15")
-        self.label_15.setGeometry(QRect(370, 400, 41, 41))
-        self.label_15.setFont(font2)
-        self.label_15.setStyleSheet(u"color:rgba(255, 255, 255, 210);")
-        self.label_15.setAlignment(Qt.AlignCenter)
-        self.label_16 = QLabel(self.widget)
-        self.label_16.setObjectName(u"label_16")
-        self.label_16.setGeometry(QRect(370, 440, 41, 41))
-        self.label_16.setFont(font2)
-        self.label_16.setStyleSheet(u"color:rgba(255, 255, 255, 210);")
-        self.label_16.setAlignment(Qt.AlignCenter)
-        self.label_17 = QLabel(self.widget)
-        self.label_17.setObjectName(u"label_17")
-        self.label_17.setGeometry(QRect(370, 480, 41, 41))
-        self.label_17.setFont(font2)
-        self.label_17.setStyleSheet(u"color:rgba(255, 255, 255, 210);")
-        self.label_17.setAlignment(Qt.AlignCenter)
-        self.label_18 = QLabel(self.widget)
-        self.label_18.setObjectName(u"label_18")
-        self.label_18.setGeometry(QRect(370, 520, 41, 41))
-        self.label_18.setFont(font2)
-        self.label_18.setStyleSheet(u"color:rgba(255, 255, 255, 210);")
-        self.label_18.setAlignment(Qt.AlignCenter)
-        #self.label_19 = QLabel(self.widget)
-        #self.label_19.setObjectName(u"label_19")
-        #self.label_19.setGeometry(QRect(160, 259, 271, 321))
-        #self.label_19.setStyleSheet(u"background: rgba(0,0,0,100);\n"
-#"border-radius : 15px")
+        self.pushButton_2 = QPushButton(self.widget)
+        self.pushButton_2.setObjectName(u"pushButton_2")
+        self.pushButton_2.setGeometry(QRect(80, 90, 61, 51))
+        self.pushButton_3 = QPushButton(self.widget)
+        self.pushButton_3.setObjectName(u"pushButton_3")
+        self.pushButton_3.setGeometry(QRect(470, 95, 31, 40))
+        font3 = QFont()
+        font3.setFamily(u"Corbel")
+        font3.setPointSize(26)
+        font3.setBold(True)
+        font3.setWeight(75)
+        self.pushButton_3.setFont(font3)
+        self.pushButton_4 = QPushButton(self.widget)
+        self.pushButton_4.setObjectName(u"pushButton_4")
+        self.pushButton_4.setGeometry(QRect(100, 700, 381, 23))
+        font4 = QFont()
+        font4.setFamily(u"Corbel")
+        font4.setPointSize(15)
+        self.pushButton_4.setFont(font4)
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QMenuBar(MainWindow)
         self.menubar.setObjectName(u"menubar")
@@ -203,42 +197,56 @@ class Ui_SecondWindow(object):
         MainWindow.setMenuBar(self.menubar)
         self.statusbar = QStatusBar(MainWindow)
         self.statusbar.setObjectName(u"statusbar")
+        #self.pushButton_2.setIconSize(10,10)
         MainWindow.setStatusBar(self.statusbar)
 
         self.retranslateUi(MainWindow)
 
         QMetaObject.connectSlotsByName(MainWindow)
-    # setupUi
+
 
     def retranslateUi(self, MainWindow):
         MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"MainWindow", None))
         self.label.setText("")
         self.label_2.setText("")
         self.label_3.setText("")
-        self.label_4.setText(QCoreApplication.translate("MainWindow", u"BENGALURU", None))
+        self.label_4.setText("")
+        #self.label_4.setWindowIcon(QIcon('Screenshot_2023-09-28_at_7.44.17_PM-removebg.png'))
+        self.pushButton.setText(QCoreApplication.translate("MainWindow", u"Air Quality Index", None))
+        self.pushButton.clicked.connect(self.con_aqi)
+        self.pushButton_5.setText(QCoreApplication.translate("MainWindow", u"Water Quality Index", None))
+        self.label_5.setText(QCoreApplication.translate("MainWindow", u"\"There is divinity in the clouds\"", None))
+        self.label_6.setText(QCoreApplication.translate("MainWindow", u"\"Climate is what we expect, weather is what we get\"", None))
+        self.label_7.setText(QCoreApplication.translate("MainWindow", u"\"To walk into nature is to witness a thousand miracles\"", None))
+        #self.pushButton_2.setText(QCoreApplication.translate("MainWindow", u"PushButton", None))
+        self.pushButton_2.setIcon(QIcon('588a64fed06f6719692a2d14.png'))
+        self.pushButton_2.setIconSize(QSize(30,30))
         self.pushButton_3.setText(QCoreApplication.translate("MainWindow", u"X", None))
-        self.label_5.setText(QCoreApplication.translate("MainWindow", u"AQI", None))
-        self.label_6.setText(QCoreApplication.translate("MainWindow", u"PM", None))
-        self.label_7.setText(QCoreApplication.translate("MainWindow", u"NO", None))
-        self.label_8.setText(QCoreApplication.translate("MainWindow", u"CO", None))
-        self.label_9.setText(QCoreApplication.translate("MainWindow", u"O3", None))
-        self.label_10.setText(QCoreApplication.translate("MainWindow", u"SO2", None))
-        self.label_11.setText(QCoreApplication.translate("MainWindow", u"NO2", None))
-        self.label_12.setText(QCoreApplication.translate("MainWindow", u"108", None))
-        self.label_13.setText(QCoreApplication.translate("MainWindow", u"68", None))
-        self.label_14.setText(QCoreApplication.translate("MainWindow", u"90", None))
-        self.label_15.setText(QCoreApplication.translate("MainWindow", u"38", None))
-        self.label_16.setText(QCoreApplication.translate("MainWindow", u"19", None))
-        self.label_17.setText(QCoreApplication.translate("MainWindow", u"12", None))
-        self.label_18.setText(QCoreApplication.translate("MainWindow", u"01", None))
-        #self.label_19.setText("")
+        self.pushButton_4.setText(QCoreApplication.translate("MainWindow", u"HYPERLINK ", None))
         self.pushButton_3.clicked.connect(QCoreApplication.instance().quit)
- 
-     
+        self.pushButton_5.clicked.connect(self.con_wqi)
+        self.pushButton_2.clicked.connect(self.con_menu)
+        #self.pushButton.clicked.connect(subprocess.call("AQI_Interface_Part1", shell = True))
+        #self.pushButton.clicked.connect(self.con_aqi())
+        #self.pushButton.clicked.connect(QCoreApplication.instance().quit)
+        
+    def con_aqi(self):
+        p = subprocess.call("python AQI_Interface_Part1.py 1", shell = True)
+        #sys.exit(app.exec_())
+
+    def con_wqi(self):
+        p = subprocess.call("python WQI_Interface.py 1", shell = True)
+
+    def con_menu(self):
+        p = subprocess.call("python Menu_Interface.py 1", shell = True)
+
+
+
 if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)
     MainWindow = QtWidgets.QMainWindow()
-    ui = Ui_SecondWindow()
+    ui = Ui_MainWindow()
     ui.setupUi(MainWindow)
     MainWindow.show()
     sys.exit(app.exec_())
+
