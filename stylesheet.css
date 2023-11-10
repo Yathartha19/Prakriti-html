@@ -1,131 +1,121 @@
+@import url("./utils.css");
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-      'Lucida Sans', Arial, sans-serif;
-  }
-  
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+}
 
+/*------------ NAV BAR -----------*/
 
-
-
-  /*------------ NAV BAR -----------*/
-
-  nav {
-    width:100%;
+nav {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgba(0,0,0,0.6);
-    position:fixed;
-    top:0; 
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
     height: 6rem;
-    padding-right:5%;
-    padding-left:5%;
-  }
+    padding-right: 5%;
+    padding-left: 5%;
+}
 
-  .logo {
+.logo {
     color: #add8e6;
     font-size: 1.5rem;
     font-weight: bold;
     font-style: italic;
     padding: 0 2rem;
-  }
-  
-  nav a {
+}
+
+nav a {
     text-decoration: none;
     color: #4db8e5;
     padding: 0 1.5rem;
-  }
-  
-  nav a:hover {
-    color: #fff;
-  }
-  
-
-
-
-
-  /*----------------- FOOTER ------------------*/
-
-  .footer {
-    width:100%;
-    text-align: center;
-    padding: 1rem 0;
-
-  }
-
-  hr.footerhr {
-    border: 0;
-    height: 0.1rem;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
-  .footer h3 {
+nav a:hover {
+    color: #fff;
+}
+
+/*----------------- FOOTER ------------------*/
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+hr.footerhr {
+    border: 0;
+    height: 0.1rem;
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 0.75),
+        rgba(0, 0, 0, 0)
+    );
+}
+
+.footer h3 {
     font-weight: 600;
     margin-bottom: 2rem;
     padding-top: 5%;
-  }
+}
 
-  .footer p {
-    margin-bottom:2rem;
-  }
+.footer p {
+    margin-bottom: 2rem;
+}
 
-  .icons .fa {
-    color: #4267B2;
+.icons .fa {
+    color: #4267b2;
     margin: 0 13px;
     cursor: pointer;
     padding: 18px 0;
     margin-bottom: 25px;
-  }
+}
 
+/*------------ HOME PAGE STYLE -----------*/
 
-
-
-
-
-
-
- /*------------ HOME PAGE STYLE -----------*/
-
-  .main {
-    background-image: linear-gradient(rgba(4,9,30,0.4),rgba(4,9,30,0.4)),url(images/cloud.jpeg);
+.main {
+    background-image: linear-gradient(rgba(4, 9, 30, 0.4), rgba(4, 9, 30, 0.4)),
+        url(images/cloud.jpeg);
     background-position: center;
     background-size: cover;
     position: center center;
     height: 65rem;
+}
 
-  }
-  
-  .main-container {
+.main-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 95vh;
     padding: 3rem calc((100vw - 80rem) / 2);
-  }
-  
-  .main-column-left {
+}
+
+.main-column-left {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     color: #ffffff;
     padding: 0rem 2rem;
-  }
-  
-  .main-column-left h1 {
+}
+
+.main-column-left h1 {
     margin-bottom: 1rem;
     font-size: 3rem;
-  }
-  
-  .main-column-left p {
+}
+
+.main-column-left p {
     margin-bottom: 2rem;
     font-size: 1.5rem;
     line-height: 1.5;
-  }
-  
-  .main-column-left button {
+}
+
+.main-column-left button {
     padding: 1rem 3rem;
     font-size: 1rem;
     border: none;
@@ -133,55 +123,43 @@
     background: #000;
     cursor: pointer;
     border-radius: 50px;
-  }
-  
-  .main-column-left button:hover {
-    background: #fff;
-    color: #000;
-  }
-  
-  .main-column-right {
+}
+
+.main-column-right {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0rem 2rem;
-  }
-  
-  .main-image {
+}
+
+.main-image {
     width: 100%;
     height: 80%;
-  }
+}
 
+.sec {
+    background: #ffffff;
+}
 
-
-  
-
-
-
-
-  .sec {
-    background:#ffffff;
-  }
-
-  html{
+html {
     scroll-behavior: smooth;
-  }
+}
 
-  .sec h1 {
+.sec h1 {
     text-align: center;
     padding-top: 10%;
     padding-bottom: 0;
     font-size: 3rem;
-  }
+}
 
-  .sec-container {
+.sec-container {
     display: flex;
     height: 80vh;
     padding: 10rem calc((100vw - 80rem) / 10);
     justify-content: space-evenly;
-  }
+}
 
-  .left {
+.left {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -196,24 +174,24 @@
     margin-bottom: 5%;
     box-sizing: content-box;
     transition: 0.2s;
-  }
+}
 
-  .left:hover{
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
-  }
+.left:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
 
-  .left h1{
+.left h1 {
     margin-bottom: 1rem;
     font-size: 2rem;
-  }
+}
 
-  .left p {
+.left p {
     margin-bottom: 2rem;
     font-size: 1.5rem;
     line-height: 1.5;
-  }
+}
 
-  .right {
+.right {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -221,7 +199,7 @@
     text-align: center;
     color: #2a2a2c;
     padding: 0rem 2rem;
-    
+
     flex-basis: 35%;
     background: #b0e0e6;
     border-radius: 30px;
@@ -229,24 +207,24 @@
     box-sizing: content-box;
 
     transition: 0.2s;
-  }
+}
 
-  .right:hover{
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
-  }
+.right:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
 
-  .right h1{
+.right h1 {
     font-size: 2rem;
     margin-bottom: 1rem;
-  }
+}
 
-  .right p {
+.right p {
     margin-bottom: 2rem;
     font-size: 1.5rem;
     line-height: 1.5;
-  }
+}
 
-  button {
+button {
     padding: 1rem 3rem;
     font-size: 1rem;
     border: none;
@@ -254,127 +232,106 @@
     background: #000;
     cursor: pointer;
     border-radius: 50px;
-  }
-  
-  button:hover {
-    background: #4bd8e5;
-    color: #000;
-  }
+}
 
+.more {
+    background: #ffffff;
+}
 
-
-
-
-
-
-
-  .more {
-    background:#ffffff;
-  }
-
-
-  .more h2 {
+.more h2 {
     text-align: center;
     padding-top: 8%;
     font-size: 3rem;
-  }
+}
 
-  .leftcol {
+.leftcol {
     flex-basis: 32%;
     border-radius: 10px;
     margin-bottom: 1.5rem;
     position: relative;
     overflow: hidden;
-  }
+}
 
-  .leftcol img{
-    width:100%;
-    height:100%;
-  }
+.leftcol img {
+    width: 100%;
+    height: 100%;
+}
 
-  .midcol {
+.midcol {
     flex-basis: 32%;
     border-radius: 10px;
     margin-bottom: 1.5rem;
     position: relative;
     overflow: hidden;
-  }
+}
 
-  .midcol img{
-    width:100%;
-    height:100%;
-  }
+.midcol img {
+    width: 100%;
+    height: 100%;
+}
 
-  .rightcol {
+.rightcol {
     flex-basis: 32%;
     border-radius: 10px;
     margin-bottom: 1.5rem;
     position: relative;
     overflow: hidden;
-  }
+}
 
-  .rightcol img{
-    width:100%;
-    height:100%;
-  }
+.rightcol img {
+    width: 100%;
+    height: 100%;
+}
 
-  .layer {
+.layer {
     background: transparent;
-    height:100%;
-    width:100%;
+    height: 100%;
+    width: 100%;
     position: absolute;
-    top:0;
-    left:0;
-    transition:0.5s;
-  }
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
 
-  .layer:hover {
-    background: rgba(0,0,0,0.6);
+.layer:hover {
+    background: rgba(0, 0, 0, 0.6);
+}
 
-  }
-  
-  .layer h3{
+.layer h3 {
     opacity: 0;
     color: #fff;
     font-size: 2rem;
     transition: 0.5s;
     text-align: center;
-    padding-top:35%;
-  }
+    padding-top: 35%;
+}
 
-  .layer:hover h3{
+.layer:hover h3 {
     opacity: 1;
-  }
+}
 
-
-
-
-
-  
-
-
-  /*-------------- OTHER PAGES COMMON HEADER BACKGROUND ------------*/
-
+/*-------------- OTHER PAGES COMMON HEADER BACKGROUND ------------*/
 
 .unmain {
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/cloud.jpeg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+        url(images/cloud.jpeg);
     background-position: center;
     background-size: cover;
     position: center center;
     height: 30rem;
-  }
-  
-.unmain h1{
-  text-align: center;
-  padding-top: 15%;
-  font-size: 3rem;
-  color: #fff;
+}
+
+.unmain h1 {
+    text-align: center;
+    padding-top: 15%;
+    font-size: 3rem;
+    color: #fff;
 }
 
 .unmain p {
-  text-align: center;
-  margin-top:1rem;
-  color: #fff;
+    text-align: center;
+    margin-top: 1rem;
+    color: #fff;
 }
 
 .unmain-container {
@@ -382,86 +339,72 @@
     grid-template-columns: 1fr 1fr;
     height: 95vh;
     padding: 3rem calc((100vw - 80rem) / 2);
-  }
+}
 
-
-
-
-
-
-
-  /*-------------------- WEATHER ----------------*/
-  .forecast img{
+/*-------------------- WEATHER ----------------*/
+.forecast img {
     padding-left: 15%;
     padding-top: 5%;
-  }
+}
 
-  .banana {
+.banana {
     display: grid;
     grid-template-columns: 1fr 2fr;
     height: 35vh;
     padding-left: 5%;
-    padding-top:5%;
-    padding-right:15%;
-  }
+    padding-top: 5%;
+    padding-right: 15%;
+}
 
-  .daywise img{
-    padding-top:5%;
-    padding-left:3%;
-    padding-right:5%;
-    height:80%;
-    width:120%;
-  }
+.daywise img {
+    padding-top: 5%;
+    padding-left: 3%;
+    padding-right: 5%;
+    height: 80%;
+    width: 120%;
+}
 
-  .realtime-data-one h1 {
-    padding-top:10%;
+.realtime-data-one h1 {
+    padding-top: 10%;
     padding-left: 15%;
     font-size: 3rem;
-  }
+}
 
-  .date {
+.date {
     padding-left: 15%;
     font-size: 1rem;
-    font-size:1rem
-  }
+    font-size: 1rem;
+}
 
-  .realtime-data-one img{
+.realtime-data-one img {
     padding-left: 15%;
     padding-top: 0;
-    height:6rem;
-    width:auto;
-  }
+    height: 6rem;
+    width: auto;
+}
 
-  .platelets {
+.platelets {
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 8rem;
-    padding-right:15%;
-    padding-left:15%;
-  }
+    padding-right: 15%;
+    padding-left: 15%;
+}
 
-  .platelets u {
-    font-size:2rem;
-  }
+.platelets u {
+    font-size: 2rem;
+}
 
-  .ponziani {
+.ponziani {
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 8rem;
-    padding-right:15%;
-    padding-left:15%;
-  }
+    padding-right: 15%;
+    padding-left: 15%;
+}
 
-  .ponziani p {
-    font-size:2rem;
-  }
-  
-
-
-
-
-
-
-
+.ponziani p {
+    font-size: 2rem;
+}
