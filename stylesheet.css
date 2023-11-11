@@ -1,5 +1,7 @@
 @import url("./utils.css");
 @import url("./theme.css");
+@import url("./navbar.css");
+@import url("footer.css");
 
 * {
     box-sizing: border-box;
@@ -9,76 +11,7 @@
         "Lucida Sans", Arial, sans-serif;
 }
 
-/*------------ NAV BAR -----------*/
 
-nav {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgba(0, 0, 0, 0.6);
-    position: fixed;
-    top: 0;
-    height: 6rem;
-    padding-right: 5%;
-    padding-left: 5%;
-    z-index: 1;
-}
-
-.logo {
-    color: var(--light-blue-color);
-    font-size: 1.5rem;
-    font-weight: bold;
-    font-style: italic;
-    padding: 0 2rem;
-}
-
-nav a {
-    text-decoration: none;
-    color: var(--blue-color);
-    padding: 0 1.5rem;
-}
-
-nav a:hover {
-    color: var(--pure-white-color);
-}
-
-/*----------------- FOOTER ------------------*/
-
-.footer {
-    width: 100%;
-    text-align: center;
-    padding: 1rem 0;
-}
-
-hr.footerhr {
-    border: 0;
-    height: 0.1rem;
-    background-image: linear-gradient(
-        to right,
-        var(--pure-black-color),
-        rgba(0, 0, 0, 0.75),
-        var(--pure-black-color)
-    );
-}
-
-.footer h3 {
-    font-weight: 600;
-    margin-bottom: 2rem;
-    padding-top: 5%;
-}
-
-.footer p {
-    margin-bottom: 2rem;
-}
-
-.icons .fa {
-    color: var(--dark-blue-color);
-    margin: 0 13px;
-    cursor: pointer;
-    padding: 18px 0;
-    margin-bottom: 25px;
-}
 
 /*------------ HOME PAGE STYLE -----------*/
 

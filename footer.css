@@ -1,0 +1,36 @@
+/*----------------- FOOTER ------------------*/
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+hr.footerhr {
+    border: 0;
+    height: 0.1rem;
+    background-image: linear-gradient(
+        to right,
+        var(--pure-black-color),
+        rgba(0, 0, 0, 0.75),
+        var(--pure-black-color)
+    );
+}
+
+.footer h3 {
+    font-weight: 600;
+    margin-bottom: 2rem;
+    padding-top: 5%;
+}
+
+.footer p {
+    margin-bottom: 2rem;
+}
+
+.icons .fa {
+    color: var(--dark-blue-color);
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+    margin-bottom: 25px;
+}
