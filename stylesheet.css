@@ -11,7 +11,10 @@
         "Lucida Sans", Arial, sans-serif;
 }
 
-
+body {
+    background: var(--background-color);
+    color: var(--foreground-color);
+}
 
 /*------------ HOME PAGE STYLE -----------*/
 
@@ -55,8 +58,8 @@
     padding: 1rem 3rem;
     font-size: 1rem;
     border: none;
-    color: var(--light-blue-color);
-    background: #000;
+    color: var(--foreground-color);
+    background: var(--background-color);
     cursor: pointer;
     border-radius: 50px;
 }
@@ -71,10 +74,6 @@
 .main-image {
     width: 100%;
     height: 80%;
-}
-
-.sec {
-    background: var(--pure-white-color);
 }
 
 html {
@@ -101,7 +100,7 @@ html {
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #2a2a2c;
+    color: var(--pure-black-color);
     padding: 0rem 2rem;
 
     flex-basis: 35%;
@@ -133,7 +132,7 @@ html {
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #2a2a2c;
+    color: var(--pure-black-color);
     padding: 0rem 2rem;
 
     flex-basis: 35%;
@@ -164,14 +163,10 @@ button {
     padding: 1rem 3rem;
     font-size: 1rem;
     border: none;
-    color: var(--pure-white-color);
-    background: var(--pure-black-color);
+    color: var(--background-color);
+    background: var(--foreground-color);
     cursor: pointer;
     border-radius: 50px;
-}
-
-.more {
-    background: var(--pure-white-color);
 }
 
 .more h2 {
