@@ -20,6 +20,7 @@ nav {
     height: 6rem;
     padding-right: 5%;
     padding-left: 5%;
+    z-index: 1;
 }
 
 .logo {
