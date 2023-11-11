@@ -1,4 +1,6 @@
 @import url("./utils.css");
+@import url("./theme.css");
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -24,7 +26,7 @@ nav {
 }
 
 .logo {
-    color: #add8e6;
+    color: var(--light-blue-color);
     font-size: 1.5rem;
     font-weight: bold;
     font-style: italic;
@@ -33,12 +35,12 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: #4db8e5;
+    color: var(--blue-color);
     padding: 0 1.5rem;
 }
 
 nav a:hover {
-    color: #fff;
+    color: var(--pure-white-color);
 }
 
 /*----------------- FOOTER ------------------*/
@@ -54,9 +56,9 @@ hr.footerhr {
     height: 0.1rem;
     background-image: linear-gradient(
         to right,
-        rgba(0, 0, 0, 0),
+        var(--pure-black-color),
         rgba(0, 0, 0, 0.75),
-        rgba(0, 0, 0, 0)
+        var(--pure-black-color)
     );
 }
 
@@ -71,7 +73,7 @@ hr.footerhr {
 }
 
 .icons .fa {
-    color: #4267b2;
+    color: var(--dark-blue-color);
     margin: 0 13px;
     cursor: pointer;
     padding: 18px 0;
@@ -101,7 +103,7 @@ hr.footerhr {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    color: #ffffff;
+    color: var(--pure-white-color);
     padding: 0rem 2rem;
 }
 
@@ -120,7 +122,7 @@ hr.footerhr {
     padding: 1rem 3rem;
     font-size: 1rem;
     border: none;
-    color: #add8e6;
+    color: var(--light-blue-color);
     background: #000;
     cursor: pointer;
     border-radius: 50px;
@@ -139,7 +141,7 @@ hr.footerhr {
 }
 
 .sec {
-    background: #ffffff;
+    background: var(--pure-white-color);
 }
 
 html {
@@ -170,7 +172,7 @@ html {
     padding: 0rem 2rem;
 
     flex-basis: 35%;
-    background: #b0e0e6;
+    background: var(--light-blue-color);
     border-radius: 30px;
     margin-bottom: 5%;
     box-sizing: content-box;
@@ -202,7 +204,7 @@ html {
     padding: 0rem 2rem;
 
     flex-basis: 35%;
-    background: #b0e0e6;
+    background: var(--light-blue-color);
     border-radius: 30px;
     margin-bottom: 5%;
     box-sizing: content-box;
@@ -229,14 +231,14 @@ button {
     padding: 1rem 3rem;
     font-size: 1rem;
     border: none;
-    color: #ffffff;
-    background: #000;
+    color: var(--pure-white-color);
+    background: var(--pure-black-color);
     cursor: pointer;
     border-radius: 50px;
 }
 
 .more {
-    background: #ffffff;
+    background: var(--pure-white-color);
 }
 
 .more h2 {
@@ -300,7 +302,7 @@ button {
 
 .layer h3 {
     opacity: 0;
-    color: #fff;
+    color: var(--pure-white-color);
     font-size: 2rem;
     transition: 0.5s;
     text-align: center;
@@ -326,13 +328,13 @@ button {
     text-align: center;
     padding-top: 15%;
     font-size: 3rem;
-    color: #fff;
+    color: var(--pure-white-color);
 }
 
 .unmain p {
     text-align: center;
     margin-top: 1rem;
-    color: #fff;
+    color: var(--pure-white-color);
 }
 
 .unmain-container {
