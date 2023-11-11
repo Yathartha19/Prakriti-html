@@ -3,8 +3,8 @@ html {
     --blue-color: #4db8e5;
     --dark-blue-color: #4267b2;
 
-    --pure-white-color: #ffffff;
-    --pure-black-color: #000000;
+    --test2:#808b91;
+    --test:#397696;
 }
 
 * {
@@ -14,11 +14,11 @@ html {
 }
 
 html[data-theme="dark"] {
-    --background-color: var(--pure-black-color);
+    --background-color: var(--test);
     --foreground-color: var(--pure-white-color);
 }
 
 html[data-theme="light"] {
-    --background-color: var(--pure-white-color);
+    --background-color: var(--test2);
     --foreground-color: var(--pure-black-color);
 }
