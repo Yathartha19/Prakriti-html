@@ -1,4 +1,4 @@
-@import url("utils.css");
+@import url("button_animation.css");
 @import url("theme.css");
 @import url("navbar.css");
 @import url("footer.css");
@@ -112,7 +112,7 @@ html {
 }
 
 .left:hover {
-    box-shadow: 0 0 20px 0px var(--foreground-color);
+    box-shadow: 0 0 20px 0px var(--glow);
 }
 
 .left h1 {
@@ -145,7 +145,7 @@ html {
 }
 
 .right:hover {
-    box-shadow: 0 0 20px 0px var(--foreground-color);
+    box-shadow: 0 0 20px 0px var(--glow);
 }
 
 .right h1 {

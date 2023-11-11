@@ -4,7 +4,9 @@ html {
     --dark-blue-color: #4267b2;
     --test: #121212;
     --kau-color: #397696;
-    
+    --glow-blue: hsl(186 100% 69%);
+    --glow-dark: #000000;
+
     --pure-white-color: #ffffff;
     --pure-black-color: #000000;
 }
@@ -18,9 +20,11 @@ html {
 html[data-theme="dark"] {
     --background-color: var(--test);
     --foreground-color: var(--pure-white-color);
+    --glow: var(--glow-blue)
 }
 
 html[data-theme="light"] {
     --background-color: var(--pure-white-color);
     --foreground-color: var(--pure-black-color);
+    --glow: var(--glow-dark)
 }
