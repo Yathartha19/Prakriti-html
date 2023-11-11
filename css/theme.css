@@ -2,7 +2,8 @@ html {
     --light-blue-color: #add8e6;
     --blue-color: #4db8e5;
     --dark-blue-color: #4267b2;
-
+    --test: #121212;
+    
     --pure-white-color: #ffffff;
     --pure-black-color: #000000;
 }
@@ -14,7 +15,7 @@ html {
 }
 
 html[data-theme="dark"] {
-    --background-color: var(--pure-black-color);
+    --background-color: var(--test);
     --foreground-color: var(--pure-white-color);
 }
 

@@ -20,16 +20,25 @@ nav {
     padding: 0 2rem;
 }
 
-nav a {
+.cat {
+    display: flex;
+    justify-content: space-between;
+    padding-top:1rem;
+}
+.cat a {
     text-decoration: none;
     color: var(--blue-color);
-    padding: 0 1.5rem;
+    padding: 0 1rem;
+    padding-top:1rem;
+    font-size:1.25rem;
 }
 
-nav a:hover {
+.cat a:hover {
     color: var(--pure-white-color);
 }
 
 .theme-button {
     color: var(--pure-white-color);
+    padding-left: 4rem;
+  
 }
