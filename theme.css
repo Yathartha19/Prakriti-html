@@ -6,3 +6,19 @@ html {
     --pure-white-color: #ffffff;
     --pure-black-color: #000000;
 }
+
+* {
+    transition:
+        background 0.5s,
+        color 0.5s;
+}
+
+html[data-theme="dark"] {
+    --background-color: var(--pure-black-color);
+    --foreground-color: var(--pure-white-color);
+}
+
+html[data-theme="light"] {
+    --background-color: var(--pure-white-color);
+    --foreground-color: var(--pure-black-color);
+}
