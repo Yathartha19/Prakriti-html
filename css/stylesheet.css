@@ -89,7 +89,7 @@ html {
 
 .sec-container {
     display: flex;
-    height: 80vh;
+    height: 100vh;
     padding: 10rem calc((100vw - 80rem) / 10);
     justify-content: space-evenly;
 }
@@ -112,7 +112,7 @@ html {
 }
 
 .left:hover {
-    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px 0px var(--foreground-color);
 }
 
 .left h1 {
@@ -145,7 +145,7 @@ html {
 }
 
 .right:hover {
-    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px 0px var(--foreground-color);
 }
 
 .right h1 {
@@ -163,8 +163,8 @@ button {
     padding: 1rem 3rem;
     font-size: 1rem;
     border: none;
-    color: var(--background-color);
-    background: var(--foreground-color);
+    color: var(--foreground-color);
+    background: var(--background-color);
     cursor: pointer;
     border-radius: 50px;
 }
