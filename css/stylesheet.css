@@ -1,6 +1,6 @@
-@import url("./utils.css");
-@import url("./theme.css");
-@import url("./navbar.css");
+@import url("utils.css");
+@import url("theme.css");
+@import url("navbar.css");
 @import url("footer.css");
 
 * {
@@ -20,7 +20,7 @@ body {
 
 .main {
     background-image: linear-gradient(rgba(4, 9, 30, 0.4), rgba(4, 9, 30, 0.4)),
-        url(images/cloud.jpeg);
+        url(cloud.jpeg);
     background-position: center;
     background-size: cover;
     position: center center;
@@ -245,7 +245,7 @@ button {
 
 .unmain {
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-        url(images/cloud.jpeg);
+        url(cloud.jpeg);
     background-position: center;
     background-size: cover;
     position: center center;
