@@ -9,13 +9,13 @@ THEME_BUTTON.addEventListener("click", () => {
 
     // switch the theme value of ROOT from dark to light or light to dark
     // change the innerText of theme button to change the icon
-    if (ROOT.dataset.theme === "dark") {
-        ROOT.dataset.theme = "light";
+    if (ROOT.dataset.theme === "light") {
+        ROOT.dataset.theme = "dark";
         THEME_BUTTON.innerText = "dark_mode";
     }
 
     else {
-        ROOT.dataset.theme = "dark";
+        ROOT.dataset.theme = "light";
         THEME_BUTTON.innerText = "light_mode";
     }
 

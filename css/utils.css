@@ -17,8 +17,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-
-    background: #add8e6;
+    background: var(--kau-color);
     transform: translateY(100%);
     transition: 0.5s;
     z-index: -1;

@@ -11,9 +11,9 @@ hr.footerhr {
     height: 0.1rem;
     background-image: linear-gradient(
         to right,
-        var(--pure-black-color),
-        rgba(0, 0, 0, 0.75),
-        var(--pure-black-color)
+        var(--foreground-color),
+        var(--background-color),
+        var(--foreground-color)
     );
 }
 
