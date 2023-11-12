@@ -11,6 +11,7 @@ Prakriti is a weather app that keeps you informed about weather conditions and a
 - [@Yathartha](https://www.github.com/Yathartha19)
 - [@nikhlik201](https://github.com/nikhilk205)
 - [@nishantHolla](https://github.com/nishantHolla)
+- [@snigenigmatic](https://github.com/snigenigmatic)
 
 
 
