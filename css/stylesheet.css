@@ -254,6 +254,55 @@ a, a:visited , a:active {
     opacity: 1;
 }
 
+
+@media(max-width: 1000px) {
+
+    .main-column-right {
+        display: none;
+    }
+    .left p {
+        font-size: 1rem
+    }
+    .right p {
+        font-size: 1rem;
+    }
+    .left h1 {
+        font-size: 1.5rem;
+    }
+    .right h1 {
+        font-size: 1.5rem;
+    }
+    .sec h1 {
+        font-size: 2rem;
+    }
+    .sec button {
+        font-size: 0.8rem;
+        margin-bottom: 10px;
+    }
+    .more h2 {
+        font-size: 2rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*-------------- OTHER PAGES COMMON HEADER BACKGROUND ------------*/
 
 .unmain {

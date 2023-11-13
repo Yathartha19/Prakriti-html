@@ -42,3 +42,44 @@ nav {
     padding-left: 4rem;
   
 }
+
+nav .fa {
+    display: none;
+}
+
+nav p {
+    display: none;
+}
+
+
+@media(max-width: 1000px) {
+    .nav-items a {
+        display: block;
+        color: #000;
+        font-size: 1rem;
+    }
+    .cat {
+        position: absolute;
+        background: var(--light-blue-color);
+        height: 200vh;
+        width: 55%;
+        top: 0;
+        right: -55%;
+        text-align: left;
+        z-index: 2;
+    }
+    nav .fa {
+        display: block;
+        color: var(--blue-color);
+        cursor: pointer;
+        font-size: 1.5rem;
+        padding: 15px;
+    }
+    .cat ul {
+        padding-top: 25%;
+
+    }
+    .theme-button {
+        padding: 0;
+    }
+}
