@@ -41,4 +41,4 @@ Javascript, HTML, CSS...
 - Cross platform
 
 
-Check it out [here](https://yathartha19.github.io/Prakriti/).
+Check it out [here](https://yathartha19.github.io/Prakriti-html/).
